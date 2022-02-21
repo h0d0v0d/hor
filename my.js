@@ -4,7 +4,7 @@ let numberMovieDB = prompt('Сколько фильмов вы уже посмо
 let personalMovieDB = {
     count: numberMovieDB,
     movies: {},
-    actors: {},
+    actors: [],
     geners: [],
     privat: false
 };
